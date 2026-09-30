@@ -60,9 +60,9 @@ Below is the structured breakdown of top commercial SaaS platforms for dock sche
 
 ## 💻 Open-Source GitHub Projects
 
-Self-hosted engines, resource reservation frameworks, and AI skills suitable for building custom dock door appointment booking and yard management systems. Repositories are sorted by **GitHub Star Count** (descending).
+Self-hosted engines, resource reservation frameworks, and AI skills suitable for building custom dock door appointment booking and yard management systems. Repositories are sorted by **GitHub Stars_Count** (descending).
 
-| 📦 Repository & Link | ⭐ Star Count Badge | 📜 License / Tech Stack | 🎯 Logistics & Scheduling Relevance |
+| 📦 Repository & Link | ⭐ Stars_Count Badge | 📜 License / Tech Stack | 🎯 Logistics & Scheduling Relevance |
 | :--- | :--- | :--- | :--- |
 | **[Cal.com](https://github.com/calcom/cal.com)** | <a href="https://github.com/calcom/cal.com/stargazers"><img src="https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white" alt="Cal.com Stars"/></a> | **AGPL-3.0** <br> Next.js, TypeScript | Open-source scheduling infrastructure adaptable for warehouse dock door slot booking, carrier appointments, and facility availability management. |
 | **[Easy!Appointments](https://github.com/alextselegidis/easyappointments)** | <a href="https://github.com/alextselegidis/easyappointments/stargazers"><img src="https://img.shields.io/github/stars/alextselegidis/easyappointments?style=social&color=white" alt="Easy!Appointments Stars"/></a> | **GPL-3.0** <br> PHP, CodeIgniter | Highly customizable web booking application supporting flexible time slots, resource availability, and carrier arrival windows. |
@@ -82,7 +82,7 @@ We welcome community contributions to keep this list updated and comprehensive!
 
 1. **Fork** the repository.
 2. Add or update entries in `README.md` following the tabular formats above.
-3. Ensure entries include accurate pricing, trial details, or star counts.
+3. Ensure entries include accurate pricing, trial details, or Stars_Counts.
 4. Open a **Pull Request** with a clear explanation of your additions.
 
 ---
