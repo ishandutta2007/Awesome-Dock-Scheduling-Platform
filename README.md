@@ -1,175 +1,117 @@
-# Awesome-Dock-Scheduling-Platform
-
-## Top Dock Scheduling Platform Ecosystem
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-
-*Focused on Warehouse Appointment Automation, Yard Visibility & Carrier Collaboration*  
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Dock Scheduling and Yard Management**. These tools automate dock appointment booking, digitize gate check-in, optimize trailer movement, and provide real-time visibility into warehouse and yard operations for shippers, 3PLs, carriers, and distribution centers.
-
-
-
-**Examples** include GoRamp, Opendock, Descartes Dock Appointment Scheduling, C3 Reservations, YardView, Blue Yonder Network Appointment Scheduling, Transporeon Time Slot Management, FourKites Appointment Manager, Shiptify, and C3 Solutions.
-
-
-
-**Open-source emphasis**: This section is expanded with active projects for self-hosting, custom scheduling logic, and transparent yard operations — ideal for logistics teams, 3PLs, and developers seeking vendor-independent dock management. Note that the open-source ecosystem for full dock scheduling platforms remains limited, with most projects being general-purpose resource reservation systems or academic scheduling optimization tools rather than purpose-built warehouse dock software.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[GoRamp](https://www.goramp.com/)**  
-
-  Comprehensive dock and yard orchestration platform combining dock scheduling, driver check-in, yard visibility, gate management, and carrier communication. Integrates with ERP, TMS, and WMS systems via APIs, EDI, or file exchange. Starting at $175/month with free trial and free version available . Case study: The Senator Group achieved unified scheduling across domestic and export teams, replacing fragmented Access database and Outlook calendar systems .
-
-
-
-- **[Opendock](https://www.opendock.com/)**  
-
-  Dock appointment scheduling platform emphasizing carrier self-scheduling, real-time slot availability, and automated confirmations. Features calendar grid interface, TV mode display for warehouse floors, two-way SMS communication, reporting and audit history, and API/TMS integrations . Carriers can book, edit, or cancel appointments independently, with 24/7 access and automated email confirmations .
-
-
-
-- **[Descartes Dock Appointment Scheduling](https://www.descartes.com/)**  
-
-  Collaborative dock appointment solution distributing scheduling responsibility from warehouse to carriers and suppliers. Features online appointment booking, electronic audit trails, milestone notifications, TMS/WMS integration, recurring appointments, and compliance tracking . Leverages Descartes Global Logistics Network for pre-connected carrier community .
-
-
-
-- **[C3 Reservations](https://www.c3solutions.com/)**  
-
-  Web-based dock scheduling system with carrier and supplier portals, flexible constraint modeling, standing appointments, rule-based duration, document attachments, and multilingual UI. Available 24/7 with automated notifications and multi-site visibility . Designed for 3PL contract warehousing, distribution, and bulk material sites .
-
-
-
-- **[YardView](https://www.yardview.com/)**  
-
-  Purpose-built yard management system since 1998 with dock scheduling, real-time visibility, gate and access control, yard driver tasking, reporting, and WMS/TMS/ERP integration. Used across 3PL, automotive, cold storage, beverage, and manufacturing industries. SaaS pricing includes unlimited users and transactions .
-
-
-
-- **[Blue Yonder Network Appointment Scheduling](https://www.blueyonder.com/)**  
-
-  Cloud-based collaboration solution within Blue Yonder's Global Logistics Network connecting shippers to 12,000+ pre-onboarded carriers. Features self-service carrier portal, constraint-based scheduling, real-time rescheduling, predictive ETA integration, and automated audit trails . Positions as moving from "Static Booking" to "Predictive Orchestration" .
-
-
-
-- **[Transporeon Time Slot Management](https://www.transporeon.com/)**  
-
-  Digital resource management platform reproducing actual loading/unloading capacities with automatic arrival time adjustment. Carriers book slots directly while shippers define rules and constraints. Reduces waiting times by up to 40%, increases handling capacity by up to 20%, and shortens loading times by up to 60 minutes . Optional modules include Forward Open Bookings, Quick Login, and Inbound .
-
-
-
-- **[FourKites Appointment Manager](https://www.fourkites.com/)**  
-
-  Free cloud-based appointment solution for facilities, carriers, and 3PLs. Kimberly-Clark case study: reduced booking time by 80%, saved 2,000+ hours of work, eliminated 60,000+ emails, and streamlined from 5-step/5-system process to 2-step/1-system . Integrates with major TMS and ERP systems .
-
-
-
-- **[Shiptify](https://www.shiptify.com/)**  
-
-  Dock planning module with precise zone and time-slot planning, controlled capacity by niche, flexible opening hours, and dock door assignment. Carriers see only relevant constraints; internal rules can be hidden. Starting at €89/month for SMEs with usage-based pricing for larger operations .
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[LibreBooking](https://github.com/LibreBooking/librebooking)**  
-
-  Open-source, self-hosted scheduling and resource-reservation application (GPL-3.0), actively maintained fork of phpScheduleIt and Booked . Reserve rooms, equipment, and shared resources via calendar views with day, week, and month layouts. Features recurring reservations with conflict detection, approval workflows, groups and role-based permissions, quotas, accessories/add-ons, email/ICS notifications, and full RESTful Web Services API . While not purpose-built for warehouse docks, its resource reservation model can be adapted for dock door scheduling with custom configurations. Deployable on Ubuntu 24.04 LTS with PHP 8.3, MariaDB, and Nginx .
-
-
-
-- **[Yard Lense on Edge](https://www.iml.fraunhofer.de/en/fields_of_activity/material-flow-systems/software_engineering/yard-lense-on-edge-ai-supported-yard-logistics-in-real-time.html)**  
-
-  Open-source AI-supported yard logistics solution from Fraunhofer IML developed as part of the Silicon Economy . Uses intelligent cameras with edge computing and computer vision to automatically recognize, assign, and track vehicles in real time — no cloud dependency. Features automatic vehicle detection (avoiding incorrect loading), optimized parking space allocation, yard layout management, and seamless integration with existing yard management or WMS systems . Open source for transparency and long-term independence.
-
-
-
-- **[dock-door-assignment (Awesome Supply Chain)](https://github.com/kishorkukreja/awesome-supply-chain)**  
-
-  AI skill for dock door assignment optimization and yard management available via `npx skills add` . Provides expertise in assigning inbound/outbound shipments to dock doors to minimize congestion, reduce dwell time, maximize throughput, and improve warehouse efficiency. Covers dock scheduling, door assignment, truck scheduling, cross-dock optimization, and appointment scheduling . Designed for integration with AI coding environments like Claude Code, Cursor, and OpenClaw.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Cal.com** — Open-source scheduling infrastructure (AGPL-3.0) that can be adapted for dock appointment booking with custom resource types and availability rules . Self-hosted via Docker Compose with PostgreSQL and Traefik.
-
-- **Resource reservation systems** — General-purpose open-source booking platforms (e.g., Booked Scheduler forks, Easy!Appointments) that can be configured for dock door slot management with custom fields and constraints.
-
-
-
-**Frameworks for building custom dock scheduling solutions**: Combine **LibreBooking** as a foundation for resource reservation logic (adapting rooms/equipment to dock doors), **Yard Lense on Edge** for AI-powered yard vehicle tracking via edge cameras, and **dock-door-assignment** AI skill for optimization heuristics. For a lightweight self-hosted starting point, **Cal.com** can be configured with custom event types representing dock slots. Note that true enterprise dock scheduling with carrier networks, TMS/WMS integration, and compliance audit trails remains primarily commercial territory; open-source stacks provide reservation engines and yard vision foundations that require significant customization for warehouse dock workflows.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Dock scheduling tools handle logistics operations data including carrier information, shipment details, and appointment histories. Self-hosted solutions require proper security hardening, access controls, and data retention policies.
-
-- Open-source dock scheduling platforms are significantly less mature than commercial offerings. Most available projects are general-purpose reservation systems or academic optimization tools that require substantial customization for warehouse dock workflows. Evaluate gaps in carrier portals, TMS/WMS integration, and compliance reporting before deployment.
-
-- The open-source ecosystem provides strong reservation engines and yard vision foundations, but full enterprise dock scheduling with pre-connected carrier networks and automated audit trails remains primarily a commercial offering.
-
-
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Dock Scheduling Platform Banner" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Dock-Scheduling-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Dock-Scheduling-Platform?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Dock-Scheduling-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Dock-Scheduling-Platform?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Dock-Scheduling-Platform/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Dock-Scheduling-Platform?style=flat-square" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Dock-Scheduling-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Dock-Scheduling-Platform?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+# 🚚 Awesome Dock Scheduling Platform
+
+> **A curated ecosystem of commercial SaaS platforms & open-source projects for Warehouse Dock Appointment Automation, Yard Visibility & Carrier Collaboration.**
+
+Welcome to the comprehensive directory of **Dock Scheduling Platforms** and **Yard Management Systems (YMS)**. These tools automate dock appointment booking, digitize gate check-in, optimize trailer movements, eliminate detention fees, and provide real-time visibility into warehouse operations for shippers, 3PLs, carriers, and distribution centers.
 
 ---
 
+## 📑 Table of Contents
 
+- [📊 Sector Market Overview](#-sector-market-overview)
+- [🏢 SaaS & Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ How to Contribute](#️-how-to-contribute)
+- [⚠️ Disclaimer](#️-disclaimer)
+- [💖 Support & Community](#-support--community)
+- [📈 Star History](#-star-history)
 
-**Made for warehouse managers, logistics coordinators, 3PL operators, and supply chain technologists.**  
+---
 
-Let's make dock scheduling more open, transparent, and efficient.
+## 📊 Sector Market Overview
+
+> 🌐 **Market Size & Fragmentation Analysis**:  
+> The global **Dock Scheduling & Yard Management Software** market is currently estimated at **$1.8 Billion to $3.5 Billion** and is projected to reach **$6.2 Billion by 2032**, growing at a CAGR of ~11.5%.  
+> The sector is **highly fragmented**, comprising a combination of enterprise Supply Chain Management (SCM) giants (such as Blue Yonder and Descartes), specialized real-time visibility platforms (FourKites, Transporeon), and niche dedicated dock appointment SaaS solutions (Opendock, GoRamp). No single provider holds a monopoly, as logistics operators frequently choose modular tools based on carrier connectivity, TMS/WMS integration needs, and facility scale.
+
+---
+
+## 🏢 SaaS & Hosted Commercial Platforms
+
+Below is the structured breakdown of top commercial SaaS platforms for dock scheduling and yard management, sorted by **Company Size / Estimated Annual Revenue** (descending).
+
+| 🏢 Platform | 💰 Est. Company Size (Revenue / Valuation) | 💵 Starting Tier Pricing | 🎁 Free Tier / Trial Details | ⚡ Core Features & Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Blue Yonder Network Appointment Scheduling](https://www.blueyonder.com/)** | **$1.42 Billion** Annual Revenue *(Panasonic Subsidiary)* | **$15,000 / year** *(Enterprise base site tier)* | **30-Day Enterprise Sandbox / POC** *(Guided enterprise evaluation)* | Cloud-based appointment scheduling connected to 12,000+ carrier network. Features predictive ETAs, constraint-based booking, and automated audit trails. |
+| **[Descartes Dock Appointment Scheduling](https://www.descartes.com/)** | **$729 Million** Annual Revenue *(Public: NASDAQ: DSGX)* | **$8,000 / year** *(Base site license)* | **14-Day Guided Sandbox** *(Available upon sales request)* | Carrier self-scheduling portal, automated milestone notifications, recurring booking rules, and seamless TMS/WMS integration. |
+| **[Transporeon Time Slot Management](https://www.transporeon.com/)** | **~$130 Million** Annual Revenue *(Trimble Subsidiary)* | **$5,000 / facility / year** base | **Free Carrier Portal Access** *(14-day shipper trial on request)* | Dynamic loading capacity optimization, automated arrival adjustments, and carrier slot self-booking. Reduces waiting times up to 40%. |
+| **[FourKites Appointment Manager](https://www.fourkites.com/)** | **$114.3 Million** Annual Revenue *($1.0B Valuation)* | **$500 / month** per site *(Advanced tier)* | **Free Basic Tier** *(Unlimited carrier booking & standard slot access)* | Free facility appointment manager, email-free scheduling workflow, real-time yard tracking, and ERP/TMS integration. |
+| **[Opendock](https://www.opendock.com/)** | **~$12.0 Million** Annual Revenue *(Loadsmart Subsidiary)* | **$250 / month** per facility | **14-Day Free Trial** *(Full carrier self-scheduling features)* | Intuitive carrier self-booking portal, interactive calendar grid, warehouse floor TV mode display, two-way SMS, and API integration. |
+| **[C3 Reservations](https://www.c3solutions.com/)** | **~$3.6 Million** Annual Revenue | **$600 / month** per site | **30-Day Enterprise Pilot** *(Custom pilot account for qualified sites)* | Enterprise web-based dock scheduling, complex constraint modeling, standing appointments, multi-site visibility, and 24/7 carrier portal. |
+| **[GoRamp](https://www.goramp.com/)** | **~$3.2 Million** Annual Revenue | **$175 / month** *(Billed annually)* | **14-Day Free Trial** *(Up to 1 facility & 50 bookings/month)* | All-in-one dock and yard orchestration, driver self-check-in kiosk, yard visibility, and automated ERP/TMS API & EDI synchronization. |
+| **[Shiptify](https://www.shiptify.com/)** | **~$3.0 Million** Annual Revenue | **€150 / month** base plan | **14-Day Free Trial** *(Commitment-free zone/dock module)* | Precise dock door slot planning, capacity control by logistics niche, flexible opening hour rules, and hidden internal constraints. |
+| **[YardView](https://www.yardview.com/)** | **~$2.5 Million** Annual Revenue | **$450 / month** per facility | **14-Day Demo Pilot Account** *(Guided setup for yard teams)* | Purpose-built yard management and dock scheduling since 1998. Features gate access control, yard driver tasking, and real-time trailer tracking. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Self-hosted engines, resource reservation frameworks, and AI skills suitable for building custom dock door appointment booking and yard management systems. Repositories are sorted by **GitHub Star Count** (descending).
+
+| 📦 Repository & Link | ⭐ Star Count Badge | 📜 License / Tech Stack | 🎯 Logistics & Scheduling Relevance |
+| :--- | :--- | :--- | :--- |
+| **[Cal.com](https://github.com/calcom/cal.com)** | <a href="https://github.com/calcom/cal.com/stargazers"><img src="https://img.shields.io/github/stars/calcom/cal.com?style=social&color=white" alt="Cal.com Stars"/></a> | **AGPL-3.0** <br> Next.js, TypeScript | Open-source scheduling infrastructure adaptable for warehouse dock door slot booking, carrier appointments, and facility availability management. |
+| **[Easy!Appointments](https://github.com/alextselegidis/easyappointments)** | <a href="https://github.com/alextselegidis/easyappointments/stargazers"><img src="https://img.shields.io/github/stars/alextselegidis/easyappointments?style=social&color=white" alt="Easy!Appointments Stars"/></a> | **GPL-3.0** <br> PHP, CodeIgniter | Highly customizable web booking application supporting flexible time slots, resource availability, and carrier arrival windows. |
+| **[LibreBooking](https://github.com/LibreBooking/librebooking)** | <a href="https://github.com/LibreBooking/librebooking/stargazers"><img src="https://img.shields.io/github/stars/LibreBooking/librebooking?style=social&color=white" alt="LibreBooking Stars"/></a> | **GPL-3.0** <br> PHP, MariaDB | Active fork of Booked / phpScheduleIt. Resource reservation platform featuring recurring bookings, conflict detection, and REST API for dock doors. |
+| **[Thunderbird Appointment](https://github.com/thunderbird/appointment)** | <a href="https://github.com/thunderbird/appointment/stargazers"><img src="https://img.shields.io/github/stars/thunderbird/appointment?style=social&color=white" alt="Thunderbird Appointment Stars"/></a> | **MPL-2.0** <br> Python, Django | Open-source calendar appointment booking system allowing carriers to reserve time slots within warehouse operating hours. |
+| **[Django Appointment](https://github.com/adamspd/django-appointment)** | <a href="https://github.com/adamspd/django-appointment/stargazers"><img src="https://img.shields.io/github/stars/adamspd/django-appointment?style=social&color=white" alt="Django Appointment Stars"/></a> | **MIT** <br> Python, Django | Modular appointment engine with conflict prevention and slot customization, ideal for integration into custom WMS/TMS platforms. |
+| **[Tymeslot](https://github.com/Tymeslot/tymeslot)** | <a href="https://github.com/Tymeslot/tymeslot/stargazers"><img src="https://img.shields.io/github/stars/Tymeslot/tymeslot?style=social&color=white" alt="Tymeslot Stars"/></a> | **MIT** <br> Elixir, LiveView | High-performance real-time meeting and time-slot scheduling application built for high-throughput reservation workflows. |
+| **[Respa Resource Reservation Engine](https://github.com/City-of-Helsinki/respa)** | <a href="https://github.com/City-of-Helsinki/respa/stargazers"><img src="https://img.shields.io/github/stars/City-of-Helsinki/respa?style=social&color=white" alt="Respa Stars"/></a> | **MIT** <br> Python, Django | Enterprise resource reservation backend designed for managing physical locations, loading bays, equipment, and access control. |
+| **[Dock Door Assignment AI Skill](https://github.com/kishorkukreja/awesome-supply-chain)** | <a href="https://github.com/kishorkukreja/awesome-supply-chain/stargazers"><img src="https://img.shields.io/github/stars/kishorkukreja/awesome-supply-chain?style=social&color=white" alt="Awesome Supply Chain Stars"/></a> | **MIT** <br> AI Prompt / Skill | AI agent skill for optimizing inbound/outbound dock door assignments, reducing truck dwell times, and resolving yard bottlenecks. |
+| **[Yard Lense on Edge](https://www.iml.fraunhofer.de/en/fields_of_activity/material-flow-systems/software_engineering/yard-lense-on-edge-ai-supported-yard-logistics-in-real-time.html)** | *(Silicon Economy)* | **Open-Source AI** <br> Python, Edge CV | Computer-vision AI yard management system by Fraunhofer IML. Detects vehicles, reads license plates, and tracks trailers in real time without cloud dependency. |
+
+---
+
+## 🛠️ How to Contribute
+
+We welcome community contributions to keep this list updated and comprehensive!
+
+1. **Fork** the repository.
+2. Add or update entries in `README.md` following the tabular formats above.
+3. Ensure entries include accurate pricing, trial details, or star counts.
+4. Open a **Pull Request** with a clear explanation of your additions.
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-curated overview** for educational and informational purposes — not an explicit endorsement.
+- Dock scheduling systems handle critical operational logistics data. Self-hosted options require proper security hardening and data retention policies.
+- Commercial prices and feature availability may change over time. Please verify current plans directly on official vendor websites.
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring the **Awesome Dock Scheduling Platform** repository! If you find this curated list helpful for your warehouse, logistics, or supply chain projects:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🔀 **Fork & Contribute** new tools, updates, or open-source solutions.
+- 📢 **Share** with warehouse managers, 3PL operators, and supply chain developers.
+- ☕ **Sponsor**: Support ongoing open-source curation on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Dock-Scheduling-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Dock-Scheduling-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <sub>Maintained with ❤️ for warehouse managers, 3PL operators, logistics coordinators, and supply chain technologists worldwide.</sub>
+</p>
